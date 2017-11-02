@@ -3,7 +3,7 @@ import { Text } from 'react-native';
 import Card from './Card';
 
 const AlbumDetail = (props) => {
-    return(
+    return (
         <Card>
             <Text>{props.album.title}</Text>
         </Card>
